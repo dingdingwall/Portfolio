@@ -122,9 +122,10 @@ button{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     background-color: rgb(140, 0, 255);
-     border-radius: 15px;
-     border-color: rgb(140, 0, 255);
+     border-radius: 25px;
+      border: none;
      transition: color 0.3s;
+     boder
     
      
 }
