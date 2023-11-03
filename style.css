@@ -1,0 +1,110 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    color:whitesmoke;
+    font-size: 25px;
+  
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:black;/* Change the background color as needed */
+    color: #fff; /* Change the text color as needed */
+  }
+
+body{
+
+      background-color: black;  
+}
+
+
+.navbar a {
+
+      text-decoration: none;
+      font-weight: bold;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+      
+}
+
+
+
+
+.navbar {
+    display: flex;
+    gap: 100px; /* Adjust the gap between the links as needed */
+  }
+  
+
+
+  
+  /* Move the navbar to the upper right side */
+  .navbar {
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 40px; 
+  }
+  
+
+
+  img {
+    border-radius: 50%; /* Makes the image round */
+    width: 300px; /* Set the desired width (adjust as needed) */
+    height: auto; /* Automatically adjusts the height to maintain aspect ratio */
+    margin-top: 300px;
+    margin-left: 40px;
+  }
+
+.John{
+     
+     margin-top: 25%;
+     margin-left: 8%;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: bolder;
+    
+    
+} 
+
+p{  
+
+   font-size: 4vh;
+}
+
+span{
+
+  font-size: 4vh;
+
+}
+.par{
+
+  font-size: 2vh;
+}
+
+
+.navbar a {
+  text-decoration: none;
+  color:whitesmoke; /* Set the default text color */
+  transition: color 0.3s; /* Add a smooth color transition effect */
+}
+
+/* Change the text color on hover */
+.navbar a:hover {
+  color: rgb(140, 0, 255); /* Set the desired text color on hover (in this example, a shade of pink) */
+}
+
+
+img{
+
+ width: 1.5%;
+ height: 1.5%;
+ margin-left: auto;
+ margin-top:2px;
+}
+
