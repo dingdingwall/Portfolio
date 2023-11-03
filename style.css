@@ -125,12 +125,16 @@ button{
      border-radius: 25px;
       border: none;
      transition: color 0.3s;
+     text-align: center;
+     padding: 10px;
     
-    
+
      
 }
 
 button:hover{
     background-color:whitesmoke ;
-    color:rgb(140, 0, 255); ;
+    color:rgb(140, 0, 255); 
+    cursor:pointer;
 }
+
