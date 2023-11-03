@@ -108,3 +108,28 @@ img{
  margin-top:2px;
 }
 
+.btn{
+
+margin-left: 150px;
+margin-top: 20px;
+}
+
+button{
+
+     width: 250px;
+     height: 50px;
+     color: whitesmoke;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(140, 0, 255);
+     border-radius: 15px;
+     border-color: rgb(140, 0, 255);
+     transition: color 0.3s;
+    
+     
+}
+
+button:hover{
+    background-color:whitesmoke ;
+    color:rgb(140, 0, 255); ;
+}
