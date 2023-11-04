@@ -68,7 +68,8 @@ body{
   }
 
 .John{
-     
+     position: relative;
+    top: 200px;
      margin-top: 20%;
      margin-left: 8%;
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -132,6 +133,8 @@ button{
      transition: color 0.3s;
      text-align: center;
      padding: 10px;
+     position: relative;
+     top: 190px;
     
 
      
@@ -178,17 +181,19 @@ html{
 
 .about{
 
-  position: relative;
-  top: 1000px;
-  margin-bottom: 40px;
-
-
-
+     position: relative;
+     top: 900px
+     
 }
 
-.hobbies{
+p{
 
-   position: relative;
-   top: 1500px;
-   
+   font-size: medium;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+  font-size: xx-large;
 }
