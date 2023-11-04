@@ -180,20 +180,46 @@ html{
 
 
 .about{
-
+   
+    margin-left: 500px;
      position: relative;
      top: 900px
      
 }
 
-p{
 
-   font-size: medium;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
 h1{
 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
   font-size: xx-large;
+  position: relative;
+  left: 100px;
+}
+
+.ding{
+     
+   width: 300px;
+   height: 300px;
+   margin-left: 20px;
+     
+}
+
+.column-1{
+    position: relative;
+    right: 500px;
+    top: 20px
+
+    
+}
+
+.column-1 p{
+  position: relative;
+  left:100px;
+   
+}
+
+.web{ 
+
+     font-size: medium;
 }
