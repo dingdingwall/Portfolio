@@ -11,12 +11,14 @@
 }
 
 header {
+     
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     background-color: black; ;/* Change the background color as needed */
     color: #fff; /* Change the text color as needed */
+   
   }
 
 body{
@@ -30,6 +32,7 @@ body{
       text-decoration: none;
       font-weight: bold;
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
      
       
 }
@@ -40,6 +43,7 @@ body{
 .navbar {
     display: flex;
     gap: 100px; /* Adjust the gap between the links as needed */
+  
   }
   
 
@@ -50,6 +54,7 @@ body{
     margin-left: auto;
     margin-top: 20px;
     margin-right: 40px; 
+    
   }
   
 
@@ -110,7 +115,7 @@ img{
 
 .btn{
 
-margin-left: 150px;
+margin-left: 100px;
 margin-top: 20px;
 }
 
@@ -155,26 +160,35 @@ button:hover{
 }
 
 
-.text{
-  position: fixed;
-  top: 730px;
-  left:73%;
-   right: auto;
 
-}
-
-
-.text img{
-
-    height: 400px;
-    width: 400px;
-    position: fixed;
-    bottom: 400px;
-    right: 210px;
-    top:200px;
-    border-radius: 100%;
  
    
   
+
+
+
+
+
+
+html{
+
+   scroll-behavior: smooth;
 }
 
+
+.about{
+
+  position: relative;
+  top: 1000px;
+  margin-bottom: 40px;
+
+
+
+}
+
+.hobbies{
+
+   position: relative;
+   top: 1500px;
+   
+}
